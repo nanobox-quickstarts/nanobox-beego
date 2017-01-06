@@ -19,16 +19,14 @@ cd nanobox-beego
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local beego.dev
+
 # Run Beego as you would normally, with Nanobox
 nanobox run bee run
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local beego.dev
-```
 
 Visit your app at <a href="http://beego.dev:8080" target="\_blank">beego.dev:8080</a>
 
